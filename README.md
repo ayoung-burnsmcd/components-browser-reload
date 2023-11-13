@@ -19,7 +19,7 @@ When you first run this project django-browser-reload will be commented out of t
 
 Change the `value` at `line 12` of `components/test/test.py` to any value other than `foo` and refresh the browser to see the update.
 
-If you remove the comments at `lines 39 & 52` of `example/settings.py` and `line 23` of `example/urls.py` you will enable django-browser-reload.
+To enable django-browser-reload, stop the server, remove the comments at `lines 39 & 52` of `example/settings.py` and `line 23` of `example/urls.py`, restart the server.
 
 If you try and change the value in `components/test/test.py` it will not update on browser refresh any longer. Stopping and starting the server is the only way to get the updates out of the `test.py` file.
 
